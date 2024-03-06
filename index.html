@@ -1,0 +1,26 @@
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<script src="./main.js"> </script>
+	<script type="module" src="./visualization/index.js" ></script>
+	<script type="module" src="./visualization/elementos_graficos.js"></script>
+</head>
+<html>
+	<body>
+		<div class="container" id='main-container'>
+			<div class="left_container" id='left'>
+				<h2 class="left_element">Enter the input</h2>
+				<form id="form" class="left_element">
+					<input id="input" type="text" size="20" placeholder="regex pattern">
+					<input type="submit">
+				</form>
+				<textarea class="left_element" id="input_text" spellcheck="false">.</textarea>
+			</div>
+			<div class="center_container" id="center"></div>
+			<div class="right_container" id='right'>
+				<canvas id="canvas"></canvas>
+			</div>
+		</div>
+	</body>
+</html>
+
